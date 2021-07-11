@@ -9,7 +9,7 @@ Die Überwachung der Sensoren auf der Plattform einer Webseite ermöglicht ihnen
 **Konfiguration:**
 
 Die Konfiguration für die Datenbank und den Pfad erfolgt in der Datei configuration.php.
-Die Konfiguration der jeweiligen Elemente erfolgt in der Datenbank, das Menü dafür gibt es aktuell nur zum Verschieben der Reihenfolge dieser Elemente. Anlegen und L�schen geht imo. nur manuell direkt über die Datenbank.
+Die Konfiguration der jeweiligen Elemente erfolgt in der Datenbank, das Menü dafür gibt es aktuell nur zum Verschieben der Reihenfolge dieser Elemente. Anlegen und Löschen geht imo. nur manuell direkt über die Datenbank.
 Die jeweiligen Arten von Elementen können in system_config.php mit vielen weiteren Parametern eingestellt werden.
 
 **Login:**
