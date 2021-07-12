@@ -1,0 +1,21 @@
+body {
+  margin-top: 8px;
+}
+
+.success {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color:#40FF40; 
+  background-image: url('success.gif');
+  padding: 3px;
+}
+
+.nosuccess {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #FF8080; 
+  background-image: url('nosuccess.gif');
+  padding: 3px;
+}

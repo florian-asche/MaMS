@@ -1,0 +1,157 @@
+/* Spezielles Druckstylesheet */
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100.01%;
+  margin: 0px
+}
+
+#mother {
+  width: 100%;
+}
+
+#logo {
+  display: none;
+}
+
+#search {
+  display: none;
+}
+
+#navi {
+  display: none;
+}
+
+#content {
+  width: 100%;
+  color: black;
+  background-color: white;
+  font-size: 0.84em; 
+  line-height:1.45em;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: silver;
+  padding-left: 5px;
+}
+
+/* Überschrift 1 gestalten */
+h1 {
+  color: #0000A0;
+  font-size: 1.4em;
+  line-height: 1.4;
+  margin-top: 10px;
+  background-image: url(http://mams.florian-asche.de/css/gruenau/verlauf.jpg);
+  background-repeat: repeat-y;
+  padding: 4px;
+}
+
+/* Überschrift 2 */
+h2 {
+	font-size: 1.1em;
+  line-height: 1.4;
+	background-image: url(rotkaro.gif);
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	background-position: left;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+/* Überschrift 3 */
+h3 {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 1px;
+}
+
+/* Absatz und div */
+p, div {
+   padding-right: 4px;
+}
+
+/* Tag b zusätzlich einfärben */
+b {
+ /*  color: #7C580A; */
+ color: black;
+}
+
+/* Zeichenformat strong */
+strong {
+  /*  color: #AF1810; */
+ color: black;
+}
+
+/* normaler Listenstil */
+#content ul {
+  list-style-image: url(karo.gif);
+  font-size: 1em;
+  line-height: 1.4;
+  margin-left: 0.7em;
+  padding-left: 0.7em;
+}
+
+/* Gestaltung des rechts ausgerichteten Kastens */
+.kasten {
+  font-size: 1em;
+  margin-top: 10px;
+  float: right;
+  width: 190px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: silver;
+  padding: 3px;
+  margin: 3px;
+}
+
+/* Einführungsabsatz */
+.lead, .lead p {
+font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; 
+font-size:  1em;
+line-height: 1.5em;
+font-weight: bold;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+/* grauer Rahmen mit Umrandung */
+.rahmen {
+font-family : Verdana, Arial, Helvetica, sans-serif; 
+font-size : 1em;
+width: 90%;
+background-color : #EEEEEE; 
+border-style : solid; 
+border-width : 1px; 
+border-color : #CD3326; 
+padding : 3px; 
+}
+
+/* Rahmen mit gestrichelter Umrandung */
+.tipp {
+font-family : Verdana, Arial, Helvetica, sans-serif; 
+font-size : 1em; 
+width: 90%;
+border-style : dotted; 
+border-width : 1px; 
+border-color : gray; 
+padding : 3px;
+margin-top: 8px;
+margin-bottom: 10px; 
+}
+
+.code {
+font-family: Courier New, Courier, monospace;
+font-size: 1em;
+color: #000099;
+}
+
+hr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF8040;
+  width: 85%;
+  margin-left: 0px;
+  text-align: left;
+}
+
+table th, th, tbody {
+  padding: 3px;
+}

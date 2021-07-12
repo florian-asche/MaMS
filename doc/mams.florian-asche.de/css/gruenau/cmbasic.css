@@ -1,0 +1,593 @@
+/* CSS-Datei für Gruenau-Template von CMBasic
+CMBasic is free software under the GNU/GPL
+Copyright Johann-Christian Hanke 
+Copyright CSS-Datei Johann-Christian Hanke
+http://www.cmbasic.de 
+http://cmbasic.sourceforge.net */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Gesamtschrift und Gesamtrand festlegen */
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100.01%;
+  margin: 0;
+  padding: 0;
+  background-image: url(background.gif);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+/* mother-container, contains logo, navi, content and footer */
+#mother {
+  text-align: left;
+  margin: 0 auto;
+  width: 800px;
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  /* border-color: #0B8A49; */
+  /* border-top-width: 0; */
+  color: black;
+  background-color: white;
+  padding: 0;  
+}
+
+/* Container mit dem Logo */
+#logo {  
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  height: 200px;
+  color: black;
+  background-color: white;  
+  background-image: url("logogruenau.jpg");
+  margin-bottom: 20px;
+}
+
+/* Hauptüberschrift im Logo-Container */
+#logo h1 {
+  font-size: 2.2em;
+  color: white;
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 3px;    
+  font-weight: bold;
+  text-indent: 10px;  
+  padding-top: 115px;  
+}
+
+/* Unterzeile im Logo-Container */
+#logo #tagline {  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 6px;
+  padding-top: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1C5438;
+  background-color: transparent;  
+  text-indent: 10px;
+  height: 20px;  
+}
+
+/* Suchfeld */
+#search {
+  text-align: right;
+  float: right;
+  color: white;
+  width: 250px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+/* Innenrand Suchform */
+#search form {
+  margin: 0px;
+}
+
+#search input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0B8A49;
+}
+
+#searchfield {
+/* Umrandung */
+border-style: solid;
+border-width: 1px;
+border-color: white;
+background-color: transparent;
+background-image: url("formback.gif");
+}
+
+.pdf {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #FFFFD7;
+}
+
+/* Haupt-Navigationsbereich */
+#navi {
+  font-size: 0.8em;
+  float: left;
+  width: 150px;
+  color: black;
+  background-color: white;
+  margin-top: 5px;
+}
+
+#title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  background-image: url(reddot.gif);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+#path {
+  margin-top: 3px;
+  padding-bottom: 7px;
+}
+
+/* Inhaltsbereich */
+#content {
+  float: right;
+  width: 595px;
+  color: black;
+  background-color: white;
+  font-size: 0.84em; 
+  line-height:1.45em;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: silver;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* Plugins */
+.plugin, .plugin td {
+  color: black;
+  background-color: white;
+  font-size: 0.84em; 
+  line-height:1.45em;
+}
+
+/* Newsletter */
+.newsletter {
+  color: black;
+  background-color: white;
+  font-size: 0.9em; 
+  line-height:1.45em;
+}
+
+.warning {
+  color: red;
+}
+
+/* Fußzeile */
+#footer {
+  
+  color: black;
+  padding: 2px;
+  background-color: transparent;
+  clear: both;
+}
+
+div.copy {
+  margin-top: 4px;
+  font-size: 0.7em;
+  text-indent: 10px;
+  text-align: center;
+}
+
+/* Listenstile für Menüeintrag im Navibereich topmenu
+Dieser Abschnitt ist sehr lang */
+#topmenu {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  
+  padding-left: 0px;
+  text-align: right;
+}
+
+#topmenu ul {
+  padding: 3px;
+  border-bottom: 1px solid silver; 
+  margin-bottom: 8px;
+}
+
+#topmenu li {
+  display: inline;
+}
+
+#topmenu a {
+  padding: 3px 1em;
+  margin-right: 3px;
+  border: 1px solid silver;
+  text-decoration: none; 
+  border-bottom: 0;
+}
+
+#topmenu a:link {
+  text-decoration: none;
+  color: #0B8A49;
+}
+
+#topmenu a:visited {
+  color: gray;
+  text-decoration: none;
+  width: 100%;
+}
+
+#topmenu a:hover {
+  background-color: #0B8A49;
+  width: 100%;
+  color: white;
+}
+
+#topmenu .obermenuhigh {
+  padding: 3px 1em;
+  margin-right: 3px;
+  border: 1px solid silver;
+  background-color: #0B8A49;
+  color: white;
+  border-bottom: 0;
+}
+
+/* ENDE Listenstile für Menüeintrag im topmenu */
+
+/* Listenstile für Menüeintrag im Navibereich 
+Dieser Abschnitt ist sehr lang */
+#navi ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 1px;
+  padding-left: 1px;
+}
+
+#navi ul ul {
+  list-style-type: none;
+  list-style-image: url(arrow.png);
+  /* background-image: url(arrow_menu.png); */
+  background-repeat: no-repeat;
+  background-position: 0.6em;
+  padding-left: 10px;
+  margin-left: 10px;
+  }
+
+#navi ul li a {
+  display: block;
+  list-style-type: none;
+  text-indent: 0px;
+  margin-top: 3px;
+  padding: 2px 2px 2px 8px;
+  font-weight: bold;
+  color: gray;
+  background-color: transparent;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+#navi ul ul li a {
+ display: block;
+ margin-top: 1px;
+ padding:2px 2px 2px 2px;
+ text-indent: 0px;
+ font-weight: bold;
+ color: gray;
+ background-color: transparent;
+ border-top-style: none;
+ border-bottom-style: none;
+}
+
+#navi a:link {
+  display: block;
+  text-decoration: none;
+  width: 140px;
+}
+
+#navi a:visited {
+  color: gray;
+  text-decoration: none;
+  display: block;
+  width: 140px;
+}
+
+#navi a:hover {
+  display: block;
+  background-color: transparent;
+  width: 140px;
+  color: #0B8A49;
+}
+
+#navi ul .obermenuhigh {
+  list-style-type: none;
+  display: block;
+  width: 140px;
+  margin-top: 3px;
+  padding: 2px 2px 2px 8px;
+  font-weight: bold;
+  color: white;
+  background-color: #0B8A49;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #0B8A49;
+}
+
+#navi ul ul .submenuhigh {
+  list-style-type: none;
+  display: block;
+  width: 130px;
+  margin-top: 1px;
+  padding: 2px 2px 2px 2px;
+  font-weight: bold;
+  color: gray;
+  background-color: #0B8A49;
+  color: white;
+}
+/* ENDE Listenstile für Menüeintrag im Navibereich */
+
+/* Ab hier wird es für Sie richtig interessant, aber erst
+die ungebundenen Klassen erscheinen als Auswahloptionen 
+im linken Pull-down-Menü von TinyMCE! */
+
+/* Überschrift 1 gestalten */
+h1 {
+/*  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: silver; */
+  margin-top: 3px;
+  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 1.4;
+  margin-top: 10px;
+  color: #0B8A49;
+/*  background-image: url(verlauf.jpg); */
+  background-repeat: repeat-y;
+  margin-bottom: 12px;
+}
+
+/* Überschrift 2 */
+h2 {
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 1.1em;  
+  background-image: url(arrow3.png);  
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  background-position: 0px 5px;  
+}
+
+/* Überschrift 3 */
+h3 {
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font-size: 1em;
+}
+
+/* Absatz und div */
+#content p, div, object {
+  margin-top: 2px;
+  margin-bottom: 8px;  
+}
+
+#navi div.rss {
+  line-height: 1.1;
+  margin: 5px;
+  padding-left: 6px;
+}
+
+#navi div {
+  line-height: 1.1;
+  padding-left: 1px;
+  margin: 0;  
+}
+
+
+/* Tag b zusätzlich einfärben */
+b {
+ /*  color: #7C580A; */
+ color: black;
+}
+
+/* Zeichenformat strong */
+strong {
+  /*  color: #AF1810; */
+ color: black;
+}
+
+.bu {
+  margin-top: 0px;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+/* normaler Listenstil, beschränkt auf Inhaltsbereich */
+#content ul, .plugin ul {
+  margin-bottom: 12px;
+  list-style-image: url(reddot.gif);
+  font-size: 1em;
+  line-height: 1.4;
+  margin-left: 1.2em;
+  padding-left: 1.2em;
+}
+
+#content ol, .plugin ol {
+  margin-bottom: 12px;  
+  font-size: 1em;
+  line-height: 1.4;
+  margin-left: 1em;
+  padding-left: 1em;	
+}
+
+a:link {
+  color: #0B8A49;
+}
+
+/* besuchte Hyperlinks */
+a:visited {
+  color: gray;
+}
+
+/* Hovereffekt für Links */
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #0B8A49;
+}
+
+/* Hier beginnen die ungebundenen Klassen, zu erkennen
+am Punkt vor dem Klassennamen 
+Diese werden im Auswahlmenü von TinyMCE gezeigt */
+/* Gestaltung des rechts ausgerichteten News-Kastens */
+.kasten {
+  clear: both;
+  font-size: 0.9em;
+  margin-top: 10px;
+  margin-left: 3px;
+  float: right;
+  width: 200px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #0B8A49;
+  padding: 3px;
+}
+
+.kasten h3 {
+margin-top: 0px;
+} 
+
+.boxcover {
+  font-size: 0.9em;
+  margin-top: 10px;
+  margin-left: 4px;
+  float: right;
+  width: 200px;
+  padding: 3px;
+}
+
+.box {
+  font-size: 0.9em;
+  margin-top: 8px;
+  margin-right: 3px;
+  padding-right: 0px;
+  float: right;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0B8A49;
+}
+
+.box h3 {
+  background-color: #0B8A49; 
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 0px;
+}
+
+.box div {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+/* Einführungsabsatz */
+.lead, .lead p {
+  font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; 
+  font-size:  1em;
+  line-height: 1.5em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.lead img {
+  padding: 5px;
+}
+
+/* grauer Rahmen mit Umrandung */
+.rahmen {
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  font-size : 1em;
+  width: 90%;
+  background-color : #EEEEEE; 
+  border-style : solid; 
+  border-width : 1px; 
+  border-color : #0B8A49; 
+  padding: 5px; 
+}
+
+/* Rahmen mit gestrichelter Umrandung */
+.tipp {
+  font-family : Verdana, Arial, Helvetica, sans-serif; 
+  font-size : 1em; 
+  width: 95%;
+  border-style : dotted; 
+  border-width : 1px; 
+  border-color : gray; 
+  padding : 3px;
+  margin-top: 8px;
+  margin-bottom: 10px; 
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: #000099;
+}
+
+/* Linie interessant gestalten */
+
+hr#trenner {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  width: 370px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+hr {
+  border: 1px dashed #0B8A49;
+  width: 95%;
+  margin-left: 0px;
+  text-align: left;
+}
+
+#linie {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: silver;
+  padding-top: 4px;  
+  padding-bottom: 8px;  
+  line-height: 0.3;
+}
+
+/* Luft für Tabellen */
+table th, th, tbody {
+  padding: 3px;
+}
+
+/* Links innerhalb von Absätzen mit 
+kleinem Zeichen versehen */
+#content p a {
+  display: inline;
+  padding-left: 10px;  
+/*  background-image: url(bluedot.gif); */
+  background-image: url(arrow2.png);
+  background-repeat: no-repeat;
+}
+
+#content p.image {
+  text-align: left;
+}
+
+.datum {
+ font-size: 0.8em;
+}
