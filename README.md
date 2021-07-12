@@ -37,6 +37,9 @@ In dieser Entwicklung sind einige andere Fremde Quellen verwendet worden:
 
 Der Daemon welcher im Hintergrund läuft und die Daten verarbeitet kann mit /var/www/mams/daemon.php ausgeführt werden.
 
+**Webseitendump**
+Ein Dump der alten Webseite ist unter http://florian-asche.github.io/MaMS/webpage_dump/ zu finden.
+
 **Lizenz:**
 
 This project is under MIT License.
